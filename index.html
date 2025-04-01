@@ -7,24 +7,24 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div class="body">
-      <h1>Paint</h1>
-      <div id="container"></div>
-        <div class="flex-container">
-        <button id="clear-btn" class="btn">Clear</button>
-        <button id="black-btn" class="btn">Black</button>
-        <button id="rainbow-btn" class="btn">Rainbow</button>
-        <input id="grid-amount" type="range" value="64" min="4" max="64" step="4" list="markers">
-        <label id="label-grid-amount" for="grid-amount">Grid</label>
+      <div class="body">
+        <h1>Paint</h1>
+        <div id="container"></div>
+          <div class="flex-container">
+          <button id="clear-btn" class="btn">Clear</button>
+          <button id="black-btn" class="btn">Black</button>
+          <button id="rainbow-btn" class="btn">Rainbow</button>
+          <input id="grid-amount" type="range" value="64" min="4" max="64" step="4" list="markers">
+          <label id="label-grid-amount" for="grid-amount">Grid</label>
 
-        <datalist id="markers">
-          <option value="4"></option>
-          <option value="16"></option>
-          <option value="32"></option>
-          <option value="64"></option>
-        </datalist>
+          <datalist id="markers">
+            <option value="4"></option>
+            <option value="16"></option>
+            <option value="32"></option>
+            <option value="64"></option>
+          </datalist>
+        </div>
       </div>
-    </div>
     <script src="script.js"></script>
   </body>
 </html>
