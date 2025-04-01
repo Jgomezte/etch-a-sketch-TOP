@@ -9,11 +9,10 @@
 const container = document.querySelector("#container");
 container.style.width = "690px"
 
-const gridAmount = document.querySelector("#grid-amount");
-const labelGridAmount = document.querySelector("#label-grid-amount");
 
-for (let i = 1; i <= 16; i++) {
-  for (let j = 1; j <= 16; j++) {
+
+for (let i = 1; i <= 64; i++) {
+  for (let j = 1; j <= 64; j++) {
     const div = document.createElement("div");
     div.classList.add("grid");
     container.appendChild(div);
@@ -21,11 +20,11 @@ for (let i = 1; i <= 16; i++) {
 }
 
 
-const individualGrid = document.querySelectorAll(".grid");
+let individualGrid = document.querySelectorAll(".grid");
 
 individualGrid.forEach((grid) => {
-  grid.style.width = "40px";
-  grid.style.height = "40px"
+  grid.style.width = "10.78px";
+  grid.style.height = "10.78px"
 })
 individualGrid.forEach((grid) => {
   grid.addEventListener("mouseover", () => {
@@ -36,7 +35,7 @@ individualGrid.forEach((grid) => {
 const clearBtn = document.querySelector("#clear-btn");
 individualGrid.forEach((grid) => {
   clearBtn.addEventListener("click", () => {
-    grid.style.backgroundColor = "white";
+    grid.style.backgroundColor = "lightblue";
   });
 });
 
@@ -58,6 +57,10 @@ rainbowBtn.addEventListener("click", () => {
   });
 });
 
+const gridAmount = document.querySelector("#grid-amount");
+const labelGridAmount = document.querySelector("#label-grid-amount");
+
+document.getElementById("grid-amount").step = `${2 ** 2}`
 
 
 labelGridAmount.textContent = gridAmount.value;
@@ -79,9 +82,23 @@ gridAmount.addEventListener("input", (e) => {
       container.appendChild(div);
     }
   }
-  const individualGrid = document.querySelectorAll(".grid");
-  individualGrid.forEach((grid) => {
+  const grid = document.querySelectorAll(".grid");
+  grid.forEach((grid) => {
+    console.log(width / 1.125)
     grid.style.width = `${width}px`;
     grid.style.height = `${height}px`
   })
+  individualGrid = grid;
+  individualGrid.forEach((grid) => {
+    grid.addEventListener("mouseover", () => {
+      grid.style.backgroundColor = `rgb(${Math.random() * (255 + 1)}, ${Math.random() * (255 + 1)}, ${Math.random() * (255 + 1)})`;
+    });        
+  });
+  individualGrid.forEach((grid) => {
+    clearBtn.addEventListener("click", () => {
+      grid.style.backgroundColor = "lightblue";
+    });
+  });
 });
+
+
