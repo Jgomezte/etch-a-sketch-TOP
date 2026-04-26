@@ -7,6 +7,8 @@ The Website simulates the popular toy Etch-a-sketch with the following features:
 - Draw on black or random colors
 - Clear the sketch with one button
 
+You can try the website clicking on this link: (https://jgomezte.github.io/etch-a-sketch-TOP/)
+
 
 ## Screenshot
   ![Screenshot of a website where you can paint on a grid with a brush](paint.jpg)
