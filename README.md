@@ -10,11 +10,11 @@ The Website simulates the popular toy Etch-a-sketch with the following features:
 You can try the website clicking on this link: https://jgomezte.github.io/etch-a-sketch-TOP/
 
 
-## Screenshot
+## Demo
   ![Screenshot of a website where you can paint on a grid with a brush](paint.jpg)
   
-## Video
-
 
 https://github.com/user-attachments/assets/7a543f86-e7ea-4a4b-815b-7d1ea4319f43
 
+## Feedback
+Please feel free to give any feedback at gomeztelloj@gmail.com. I am still on the process of learning web development, so any feedback is appreciated.
