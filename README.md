@@ -1,7 +1,8 @@
 # etch-a-sketch-TOP
 
 ## About 
-This was a project made for The Odin Project, a free resource to learn Web Development. Especifically to learn more about JavaScript. Concepts that I learned include: EventListeners, manipulation of html in JavaScript, simple CSS. It simulates the popular toy Etch-a-sketch on a website.
+This was a project made for The Odin Project, a free resource to learn Web Development. Especifically to learn more about JavaScript. Concepts that I learned include: EventListeners, manipulation of html in JavaScript, simple CSS. 
+The Website simulates the popular toy Etch-a-sketch with the following features: 
 - Ability to change the size of the grid, from 4x4 to 64x64
 - Draw on black or random colors
 - Clear the sketch with one button
