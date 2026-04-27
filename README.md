@@ -14,7 +14,11 @@ You can try the website clicking on this link: https://jgomezte.github.io/etch-a
   ![Screenshot of a website where you can paint on a grid with a brush](paint.jpg)
   
 
-https://github.com/user-attachments/assets/7a543f86-e7ea-4a4b-815b-7d1ea4319f43
+
+
+https://github.com/user-attachments/assets/6cc8482f-ab8e-4ca6-970b-9564ac5aac1c
+
+
 
 ## Feedback
 Please feel free to give any feedback at gomeztelloj@gmail.com. I am still on the process of learning web development, so any feedback is appreciated.
